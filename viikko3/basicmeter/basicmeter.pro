@@ -6,8 +6,12 @@ CONFIG -= qt
 SOURCES += \
         basicmeter.cpp \
         firemeter.cpp \
+        heater.cpp \
+        housecontroller.cpp \
         main.cpp
 
 HEADERS += \
     basicmeter.h \
-    firemeter.h
+    firemeter.h \
+    heater.h \
+    housecontroller.h

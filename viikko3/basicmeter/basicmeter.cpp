@@ -20,5 +20,6 @@ void BasicMeter::measure()
 }
 
 void BasicMeter::showTemp(){
-     cout << "Temperature is = " << inTemp << endl;
+     cout << " in Temperature is = " << inTemp << endl;
+     cout << "out Temperature is = " << outTemp << endl;
 }

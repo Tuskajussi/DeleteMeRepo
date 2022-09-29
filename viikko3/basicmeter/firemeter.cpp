@@ -43,3 +43,13 @@ void FireMeter::showTemp()
     cout << "Max out Temperature = " << maxOutTemp << " min out Temp =" << minOutTemp << endl;
     cout << endl;
 }
+
+float FireMeter::getInputTemp()
+{
+    return this->inTemp;
+}
+
+float FireMeter::getOutTemp()
+{
+    return this->outTemp;
+}

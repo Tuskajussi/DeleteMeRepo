@@ -8,7 +8,8 @@ public:
     FireMeter();
     void measureAndUpdateMinMax();
     virtual void showTemp() override;
-
+    float getInputTemp();
+    float getOutTemp();
 private:
     float maxInTemp, minInTemp;
     float maxOutTemp,minOutTemp;
