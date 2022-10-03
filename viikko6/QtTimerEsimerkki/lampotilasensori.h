@@ -2,7 +2,7 @@
 #define LAMPOTILASENSORI_H
 
 #include <QObject>
-#include <qDebug>
+#include <QDebug>
 
 class lampotilasensori : public QObject
 {

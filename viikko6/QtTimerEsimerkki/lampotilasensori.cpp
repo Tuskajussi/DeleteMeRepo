@@ -13,4 +13,6 @@ lampotilasensori::~lampotilasensori()
 void lampotilasensori::readTemperatureSlot()
 {
     qDebug()<< "lampotilasensori vastaanotti kaskyn lukea lampotila";
+    temperature = 9.4;
+
 }

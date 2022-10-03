@@ -10,6 +10,7 @@ Katutaso::~Katutaso(){
     delete as2;
     as2 = nullptr;
 }
+
 void Katutaso::maaritaAsunnot()
 {
     as1 = new asunto();

@@ -7,6 +7,7 @@ class Kerros
 public:
     Kerros();
     virtual ~Kerros();
+
     asunto * as1;
     asunto * as2;
     asunto * as3;

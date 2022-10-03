@@ -3,7 +3,8 @@
 
 #include <QObject>
 #include <QDebug>
-#include <string.h>
+#include <iostream>
+using namespace std;
 
 class LCD : public QObject
 {
